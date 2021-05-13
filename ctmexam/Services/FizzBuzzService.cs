@@ -24,6 +24,9 @@ namespace ctmexam.Services
             if (n <= 0)
                 throw new ArgumentOutOfRangeException("n must be greater then 0");
 
+            if( n > 100)
+                throw new ArgumentOutOfRangeException("n must be less then 101");
+
             var result = new List<string>();
 
             //ugly hack for now

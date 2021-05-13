@@ -8,7 +8,7 @@ namespace ctmexam.Services.Interfaces
     /// <summary>
     /// Wraps fizz buzz biz logic
     /// </summary>
-    interface IFizzBuzzService
+    public interface IFizzBuzzService
     {
         public List<string> FizzBuzz(int n);
     }
